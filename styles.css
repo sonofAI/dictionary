@@ -29,6 +29,10 @@ html {
     overflow: scroll;
 }
 
+#container::-webkit-scrollbar {
+    display: none;
+}
+
 #input {
     font-size: 1.3rem;
     padding: 5px;
